@@ -240,8 +240,8 @@
         <p>&copy; 2024 FoodApp. All rights reserved.</p>
         <div class="social-icons">
             <a href="https://www.facebook.com/siva.katikam.1?mibextid=ZbWKwL" title="Facebook"><i class="fab fa-facebook-square"></i></a>
-            <a href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
-            <a href="#" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://x.com/Siva_im_7?t=6NH-MaD8mL-avCHSgfBRiw&s=09" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/siva_im_7/?__pwa=1" title="Instagram"><i class="fab fa-instagram-square"></i></a>
         </div>
     </footer>
 
