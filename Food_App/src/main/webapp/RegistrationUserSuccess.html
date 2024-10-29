@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        .register-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            backdrop-filter: blur(10px); /* Increase blur effect */
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px; /* Max width for the form */
+            text-align: center; /* Center align text */
+            animation: fadeIn 1s ease-in; /* Fade in animation */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            margin-bottom: 20px; /* Space between title and content */
+            font-size: 2rem; /* Larger title font */
+        }
+
+        p {
+            margin-bottom: 20px; /* Space between paragraphs */
+        }
+
+        button {
+            background-color: #5c67f2; /* Custom button color */
+            border: none; /* Remove default border */
+            padding: 12px 25px; /* Button padding */
+            font-size: 16px; /* Button font size */
+            font-weight: 600; /* Button font weight */
+            border-radius: 8px; /* Rounded corners for button */
+            cursor: pointer; /* Pointer on hover */
+            transition: background-color 0.3s ease; /* Transition for background color */
+        }
+
+        button:hover {
+            background-color: #4b54d4; /* Darker blue on hover */
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            color: #ddd;
+            opacity: 0.8; /* Slightly transparent footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <div class="form-container">
+            <h1>Registration Successful</h1>
+            <p>Your account has been created successfully!</p>
+            <p>You can now log in using your credentials.</p>
+            <p>If you have any questions, feel free to contact our support team.</p>
+            <div class="text-center">
+                <a href="LoginPage.html">
+                    <button>Go to Login</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Food App. All rights reserved.</p>
+    </div>
+    
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

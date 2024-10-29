@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: url('https://images.pexels.com/photos/3184295/pexels-photo-3184295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        .register-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            backdrop-filter: blur(10px); /* Increase blur effect */
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.8); /* Dark transparent background */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px; /* Max width for the form */
+            text-align: center; /* Center align text */
+            animation: fadeIn 1s ease-in; /* Fade in animation */
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            margin-bottom: 30px; /* Space between title and form */
+            font-size: 2.5rem; /* Larger title font */
+        }
+
+        input {
+            margin-bottom: 15px; /* Space between inputs */
+            border-radius: 10px; /* Rounded corners for input fields */
+            border: 2px solid rgba(255, 255, 255, 0.5); /* Light border color */
+            background-color: rgba(255, 255, 255, 0.2); /* Light transparent background */
+            color: #fff; /* White text for inputs */
+            transition: border-color 0.3s; /* Transition for border color */
+        }
+
+        input:focus {
+            border-color: #5c67f2; /* Border color on focus */
+            outline: none; /* Remove default outline */
+        }
+
+        .btn-custom {
+            background-color: #5c67f2; /* Custom button color */
+            border: 2px solid transparent; /* Default border */
+            transition: background-color 0.3s, transform 0.2s, border-color 0.3s; /* Add transition for border color */
+        }
+
+        .btn-custom:hover {
+            background-color: #4b54d4; /* Darker blue on hover */
+            border-color: #fff; /* Border color on hover */
+            transform: translateY(-2px); /* Lift effect */
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            color: #ddd;
+            opacity: 0.8; /* Slightly transparent footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <div class="form-container">
+            <h1>Register</h1>
+            <p class="sub-heading">Create your account</p>
+            <form action="addUser" method="POST">
+                <div class="form-group">
+                    <input type="text" name="username" class="form-control" placeholder="Username" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="address" class="form-control" placeholder="Address" required>
+                </div>
+                <button type="submit" class="btn btn-custom btn-block">Register</button>
+            </form>
+            <p class="mt-3">Already have an account? <a href="LoginPage.html" style="color: #5c67f2;">Login</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Food App. All rights reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

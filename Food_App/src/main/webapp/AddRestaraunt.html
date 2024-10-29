@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            max-width: 450px;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table td {
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="addrestaraunt">
+        <h2>Add Restaurant</h2>
+        <table>
+            <tr>
+                <td>Restaurant ID</td>
+                <td><input type="number" name="rId" required></td>
+            </tr>
+            <tr>
+                <td>Restaurant Name</td>
+                <td><input type="text" name="rname" required></td>
+            </tr>
+            <tr>
+                <td>Cuisine Type</td>
+                <td><input type="text" name="ctype" required></td>
+            </tr>
+            <tr>
+                <td>Delivery Time (mins)</td>
+                <td><input type="number" name="dtime" required></td>
+            </tr>
+            <tr>
+                <td>Is Open</td>
+                <!-- Hidden input to handle the unchecked state -->
+                <td>
+                    <input type="hidden" name="isopen" value="0">
+                    <input type="checkbox" name="isopen" value="1">
+                </td>
+            </tr>
+            <tr>
+                <td>Rating</td>
+                <td><input type="number" name="rating" min="1" max="5" required></td>
+            </tr>
+            <tr>
+                <td>Image Path</td>
+                <td><input type="text" name="imgpath"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Add Restaurant"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
