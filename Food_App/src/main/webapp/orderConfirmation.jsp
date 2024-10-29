@@ -270,9 +270,9 @@
     <div class="footer">
         <p>Follow us on:</p>
         <div class="social-icons">
-            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/siva.katikam.1?mibextid=ZbWKwL" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/Siva_im_7?t=6NH-MaD8mL-avCHSgfBRiw&s=09" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/siva_im_7/?__pwa=1" title="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
         <p>&copy; 2024 FoodApp. All Rights Reserved.</p>
     </div>
