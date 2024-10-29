@@ -239,7 +239,7 @@
     <footer class="footer">
         <p>&copy; 2024 FoodApp. All rights reserved.</p>
         <div class="social-icons">
-            <a href="#" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/siva.katikam.1?mibextid=ZbWKwL" title="Facebook"><i class="fab fa-facebook-square"></i></a>
             <a href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
             <a href="#" title="Instagram"><i class="fab fa-instagram-square"></i></a>
         </div>
